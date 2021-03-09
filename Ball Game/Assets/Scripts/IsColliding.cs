@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class IsColliding : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class IsColliding : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ball")
         {
-            Debug.Log("Dead");
+            print("DEad");
         }
     }
 }
