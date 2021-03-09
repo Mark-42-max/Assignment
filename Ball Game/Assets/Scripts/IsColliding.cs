@@ -26,7 +26,7 @@ public class IsColliding : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ball")
         {
-            print("DEad");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
